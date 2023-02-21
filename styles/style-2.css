@@ -1,0 +1,73 @@
+@import url(/styles/fonts.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.tabs {
+    width: 1170px;
+}
+
+.tab-nav {
+    width: 203px;
+    font-family: 'OpenSans-Regular';
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 80px;
+}
+
+#tab_01{
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px; 
+}
+
+.tab {
+    width: 1170px;
+    border: 1px solid #C6CBCD;
+}
+
+.tab-body {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tab-body__title {
+    font-family: 'OpenSans-Bold';
+    font-size: 30px;
+    width: 570px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+    padding: 47px 0;
+}
+
+.tab-body__text {
+    width: 570px;
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+    padding: 10px 0;
+}
+
+.tab-body__link {
+    width: 270px;
+    margin-left: 100px;
+    margin-right: 330px;
+    margin-bottom: 54px;
+}
