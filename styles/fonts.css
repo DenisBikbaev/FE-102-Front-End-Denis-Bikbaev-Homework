@@ -18,3 +18,10 @@
     font-style: normal;
     src: url(/assets/fonts/Raleway-Regular.ttf);
 }
+
+@font-face {
+    font-family: Raleway-Bold;
+    font-weight: 700;
+    font-style: normal;
+    src: url(/assets/fonts/);
+}

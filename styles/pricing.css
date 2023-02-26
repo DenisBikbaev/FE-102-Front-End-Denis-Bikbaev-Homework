@@ -1,0 +1,100 @@
+@import url(/styles/fonts.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-3{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.wrap{
+
+}
+
+.header{
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title{
+    font-family: 'Raleway-Regular';
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 57px 0;
+}
+
+hr{
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+    background-color: #EC7979;
+}
+
+.header__subtitle{
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    color: #86878B;
+    margin: 40px 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.card-price{
+
+}
+
+.card-price__title{
+
+}
+
+.card-price__text{
+    list-style-type: none;
+}
+
+#title{
+    font-family: 'OpenSans-Bold';
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 14px 140px;
+}
+
+#price{
+    font-family: 'Raleway-Bold';
+    font-size: 36px;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 29px 140px;
+}
+
+#text{
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 14px 125px;
+}
+
+#item{
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    padding: 14px 117px;
+}
