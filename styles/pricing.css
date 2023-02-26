@@ -7,7 +7,7 @@
 }
 
 .container-3{
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     background-color: #F5F5F5;
@@ -47,20 +47,30 @@ hr{
 
 .cards{
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    margin: 0 -15px;
 }
 
 .card-price{
-
+    padding: 0 15px;
+    flex: 0 0 33.333%;
 }
 
 .card-price__title{
-
+    text-align: center;
 }
 
 .card-price__text{
+    text-align: center;
     list-style-type: none;
+}
+
+.item{
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    padding: 14px 0;
 }
 
 #title{
@@ -69,7 +79,7 @@ hr{
     color: #FFFFFF;
     background: #333333;
     border: 2px solid #F5F5F5;
-    padding: 14px 140px;
+    padding: 14px 0;
 }
 
 #price{
@@ -78,7 +88,7 @@ hr{
     color: #FFFFFF;
     background: #333333;
     border: 2px solid #F5F5F5;
-    padding: 29px 140px;
+    padding: 29px 0;
 }
 
 #text{
@@ -87,14 +97,5 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     background: #333333;
     border: 2px solid #F5F5F5;
-    padding: 14px 125px;
-}
-
-#item{
-    font-family: 'Raleway-Regular';
-    font-size: 18px;
-    color: #86878B;
-    background: #FFFFFF;
-    border: 2px solid #F5F5F5;
-    padding: 14px 117px;
+    padding: 14px 0;
 }
