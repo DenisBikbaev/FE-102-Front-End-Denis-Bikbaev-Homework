@@ -49,24 +49,24 @@
     flex-direction: column;
 }
 
-.comment{
+.comment {
     margin: 0;
     padding: 0;
 }
 
-.comment::after{
+.comment::after {
     content: '';
     display: block;
     transform: translate(70px);
     width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 20px solid #E2E2E2;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
     margin-bottom: 46px;
 }
 
-.comment__text{
+.comment__text {
     background-color: #E2E2E2;
     border-radius: 10px;
     font-family: 'Raleway-Regular';
@@ -87,11 +87,11 @@
     margin-left: 5px;
 }
 
-img{
+img {
     padding: 0;
 }
 
-.card-user__name{
+.card-user__name {
     padding: 0;
     margin: 0;
 }
@@ -109,4 +109,22 @@ img{
     font-size: 18px;
     line-height: 21px;
     padding: 0;
+}
+
+.counter{
+    border: 3px solid black;
+    color: blue;
+    background-color: aliceblue;
+    margin: 120px 0 50px 0;
+    text-align: center;
+}
+
+ol{
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li::before{
+    counter-increment: section;
+    content: "Пункт " counter(section) ":";
 }
