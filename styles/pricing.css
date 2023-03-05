@@ -6,17 +6,17 @@
     padding: 0;
 }
 
-.section{
+.pricing{
     background-color: #F5F5F5;
 }
 
-.container-3{
+.pricing-wrap{
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.header{
+.pricing-header{
     width: 1170px;
     display: flex;
     flex-direction: column;

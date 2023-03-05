@@ -2,12 +2,14 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .container-4 {
     max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -111,7 +113,7 @@ img {
     padding: 0;
 }
 
-.counter{
+/* .counter{
     border: 3px solid black;
     color: blue;
     background-color: aliceblue;
@@ -127,4 +129,4 @@ ol{
 li::before{
     counter-increment: section;
     content: "Пункт " counter(section) ":";
-}
+} */
