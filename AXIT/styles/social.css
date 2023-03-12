@@ -6,21 +6,20 @@
 
 .social{
     background: #F8EFEF;
+    width: 1510px;
+    margin: 0 auto;
+    margin-bottom: 99px;
 }
+
 .social-wrap{
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-}
-
-.social-link {
     display: flex;
     align-self: center;
 }
 
 .social-aside {
-    width: 470px;
-    flex-direction: column;
     margin-right: 50px;
     margin-bottom: 18px;
 }

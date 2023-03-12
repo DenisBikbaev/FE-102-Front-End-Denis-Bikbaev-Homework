@@ -6,37 +6,40 @@
     padding: 0;
 }
 
-.container-4 {
+.customers-wrap {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
-.head {
+.customers-header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 50px;
 }
 
-.head__title {
+.customers__title {
     font-family: 'Raleway-Regular';
-    font-size: 36px;
-    line-height: 148px;
     text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 54px;
 }
 
-.head__title::after {
+.customers__title::after {
     content: '';
     display: block;
     width: 170px;
     height: 2px;
     background-color: #EC7979;
     margin: 0 auto;
+    margin-top: 54px;
     margin-bottom: 40px;
 }
 
-.head__subtitle {
+.customers__subtitle {
     font-family: 'Raleway-Regular';
     font-size: 18px;
     color: #86878B;
@@ -45,10 +48,12 @@
 
 .comments {
     display: flex;
+
+
 }
 
 .comment-card {
-    flex-direction: column;
+    padding: 0 15px;
 }
 
 .comment {
@@ -112,21 +117,3 @@ img {
     line-height: 21px;
     padding: 0;
 }
-
-/* .counter{
-    border: 3px solid black;
-    color: blue;
-    background-color: aliceblue;
-    margin: 120px 0 50px 0;
-    text-align: center;
-}
-
-ol{
-    counter-reset: section;
-    list-style-type: none;
-}
-
-li::before{
-    counter-increment: section;
-    content: "Пункт " counter(section) ":";
-} */

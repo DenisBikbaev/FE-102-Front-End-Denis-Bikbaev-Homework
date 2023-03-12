@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {}
+
+.contact-wrap {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact__title {
+    font-family: 'Raleway-Regular';
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-top: 54px;
+    text-transform: uppercase;
+}
+
+.contact__title::after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 2px;
+    background-color: #EC7979;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.contact__subtitle {
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-bottom: 80px;
+}
+
+.contact-form {
+    display: flex;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.contact-reg {
+    margin-right: 30px;
+}
+
+
+#contact {
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+#message {
+    width: 569px;
+    height: 192px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    resize: none;
+}
+
+.contact-btn {
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.contact__button{
+    width: 370px;
+    text-align: center;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    padding: 16.5px 0;
+    font-family: 'OpenSans-SemiBold';
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contact__button:hover{
+    background-color: #AB4949;
+    cursor: pointer;
+}
+
+.contact__button:active{
+    color: #EC7979;
+}

@@ -6,6 +6,8 @@
 
 .footer {
     background-color: #000000;
+    width: 1510px;
+    margin: 0 auto;
 }
 
 .footer-wrap {
@@ -24,11 +26,26 @@
 
 .fa-brands {
     margin-right: 45px;
+    color: #CCCCCC;
 }
 
-.fa-facebook-f {
-    
+.fa-solid{
+    color: #CCCCCC;
 }
+
+.fa-brands:hover{
+    transform: scale(1.5);
+    color: #EC7979;
+    transition: .2;
+}
+
+.fa-solid:hover{
+    transform: scale(1.5);
+    color: #EC7979;
+    transition: .2;
+}
+
+.fa-facebook-f {}
 
 .fa-twitter {}
 

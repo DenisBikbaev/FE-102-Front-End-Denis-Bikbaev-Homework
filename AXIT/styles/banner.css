@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.banner-img{
+.banner-img {
     background-image: url(../assets/images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -12,10 +12,23 @@
     min-height: 100%;
 }
 
-.banner-bacground{
+.banner-img::before{
+    content: '';
+	display: block;
+	width: 1510px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 172px;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+.banner-bacground {
     width: 1170px;
     padding: 0 15px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .banner-wrap {
@@ -25,10 +38,10 @@
 
 .banner-logo {
     width: 670px;
+    margin-top: 288px;
 }
 
 .banner-logo__logo {
-    margin-top: 208px;
     margin-bottom: 51px;
 }
 
@@ -59,9 +72,10 @@
     margin-bottom: 42px;
 }
 
-.banner-logo__button {
+.logo__button {
     width: 270px;
     text-align: center;
+    background-color: transparent;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     font-family: 'OpenSans-SemiBold';
@@ -70,97 +84,86 @@
     padding: 14px 0;
 }
 
-.banner-logo__button:hover{
+.logo__button:hover {
     border: 2px solid #EC7979;
     color: #EC7979;
     cursor: pointer;
 }
 
-.banner-logo__button:active{
+.logo__button:active {
     border: 2px solid #AB4949;
     background-color: #AB4949;
     color: #FFFFFF;
 }
 
-.banner-reg {
-    width: 470px;
+form {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+
+}
+
+.banner-reg {
+    width: 470px;
+    align-self: center;
+    align-content: stretch;
+    border: 1px solid white;
     border-radius: 10px;
-    align-items: center;
-    background-color: white;
-    margin-top: 208px;
-    margin-bottom: 283px;
+    background-color: #FFFFFF;
+    margin-top: 288px;
+    margin-bottom: 293px;
 }
 
 .banner-reg__title {
+    text-align: center;
     font-family: 'OpenSans-Bold';
     font-size: 24px;
     line-height: 33px;
     padding: 29px 0;
     margin-bottom: 45px;
-    text-align: center;
 }
 
-.banner-reg__user {
-    width: 370px;
-    color: #BDBDBD;
+.banner-regcard{
+    padding: 0 50px;
+    margin-bottom: 44px;
+}
+
+label{
     font-family: 'OpenSans-Regular';
     font-size: 14px;
     line-height: 19px;
+    color: #BDBDBD;
 }
 
-.banner-reg__name::after {
-    content: '';
-    display: block;
+#banner {
     width: 370px;
-    height: 1px;
-    background-color: #BDBDBD;
-    margin: 0 auto;
-    margin-top: 16px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
     margin-bottom: 33px;
 }
 
-.banner-reg__email::after {
-    content: '';
-    display: block;
-    width: 370px;
-    height: 1px;
-    background-color: #BDBDBD;
-    margin: 0 auto;
-    margin-top: 16px;
-    margin-bottom: 33px;
-}
-
-.banner-reg__password::after {
-    content: '';
-    display: block;
-    width: 370px;
-    height: 1px;
-    background-color: #BDBDBD;
-    margin: 0 auto;
-    margin-top: 16px;
-    margin-bottom: 75px;
-}
-
-.banner-reg__button {
-    width: 468px;
+#banner-button {
+    width: 469px;
     text-align: center;
+    border: none;
     border-radius: 0px 0px 10px 10px;
     color: #FFFFFF;
     background-color: #EC7979;
+    padding: 20px 0;
     font-family: 'OpenSans-SemiBold';
     font-size: 15px;
     line-height: 20px;
-    padding: 20px 0;
 }
 
-.banner-reg__button:hover {
+#banner-button:hover{
     background-color: #AB4949;
     cursor: pointer;
 }
 
-.banner-reg__button:active {
+#banner-button:active{
     background-color: #EC7979;
+}
+
+#color {
+    color: #EC7979;
 }
