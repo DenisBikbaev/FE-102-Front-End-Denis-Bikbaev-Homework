@@ -6,17 +6,16 @@
 }
 
 .header {
-    width: 1510px;
+    width: 100%;
     background-color: #000000;
     margin: 0 auto;
     position: absolute;
-    left: 173px;
     z-index: 2;
 }
 
 .header-wrap {
     background-color: #000000;
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;

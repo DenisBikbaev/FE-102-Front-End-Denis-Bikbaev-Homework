@@ -6,13 +6,12 @@
 
 .social{
     background: #F8EFEF;
-    width: 1510px;
     margin: 0 auto;
     margin-bottom: 99px;
 }
 
 .social-wrap{
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;

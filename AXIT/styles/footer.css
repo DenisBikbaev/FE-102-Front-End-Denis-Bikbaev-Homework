@@ -6,12 +6,11 @@
 
 .footer {
     background-color: #000000;
-    width: 1510px;
     margin: 0 auto;
 }
 
 .footer-wrap {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }

@@ -7,7 +7,7 @@
 .contact {}
 
 .contact-wrap {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     padding-top: 50px;
@@ -75,13 +75,13 @@
 
 .contact-btn {
     text-align: center;
-
     margin-bottom: 50px;
 }
 
 .contact__button{
     width: 370px;
     text-align: center;
+    border: none;
     background-color: #EC7979;
     color: #FFFFFF;
     padding: 16.5px 0;
