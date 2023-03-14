@@ -78,7 +78,7 @@
     margin-bottom: 50px;
 }
 
-.contact__button{
+.contact__button {
     width: 370px;
     text-align: center;
     border: none;
@@ -90,11 +90,48 @@
     line-height: 25px;
 }
 
-.contact__button:hover{
+.contact__button:hover {
     background-color: #AB4949;
     cursor: pointer;
 }
 
-.contact__button:active{
+.contact__button:active {
     color: #EC7979;
+}
+
+@media(max-width: 320px) {
+    .contact-wrap{
+        padding: 0 16px;
+    }
+    .contact-form {
+        width: 288px;
+        flex-direction: column;
+    }
+
+    .contact__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contact__title::after {
+        width: 134px;
+    }
+
+    .contact__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #contact {
+        width: 288px;
+    }
+
+    #message {
+        width: 288px;
+        height: 182px;
+    }
+
+    .contact__button {
+        width: 288px;
+    }
 }

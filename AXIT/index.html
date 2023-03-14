@@ -29,7 +29,6 @@
     </header>
     <main>
         <section class="banner">
-
             <div class="banner-bacground">
                 <div class="banner-wrap">
                     <div class="banner-logo">
@@ -97,15 +96,10 @@
         </section>
         <section class="tabs" id="tabs">
             <div class="tabs-wrap">
-                <div class="tabs-nav">
-                    <nav class="tabs-items">
-                        <a href="#tab_01" class="tabs-item">TAB 1</a>
-                        <a href="#tab_02" class="tabs-item">TAB 2</a>
-                        <a href="#tab_03" class="tabs-item">TAB 3</a>
-                    </nav>
-                </div>
-                <div class="tabs__body">
-                    <div id="tab_01" class="tabs__block active">
+                <div class="tabs-items">
+                    <input class="radio" id="tab_1" type="radio" name="tab" checked="checked">
+                    <label for="tab_1" class="table">TAB 1</label>
+                    <div class="tabs__block">
                         <div class="tab-image">
                             <img src="./assets/images/Rectangle 111.jpg" align="right" alt="about_icon">
                         </div>
@@ -128,6 +122,20 @@
                         <div class="tab-button">
                             <button type="button" id="tab__btn">Download</button>
                         </div>
+                    </div>
+                    <input class="radio" id="tab_2" type="radio" name="tab">
+                    <label for="tab_2" class="table">TAB 2</label>
+                    <div class="tabs__block">
+                        <p  class="tab-body__title">
+                            Content TAB 2
+                        </p>
+                    </div>
+                    <input class="radio" id="tab_3" type="radio" name="tab">
+                    <label for="tab_3" class="table">TAB 3</label>
+                    <div class="tabs__block">
+                        <p class="tab-body__title">
+                            Content TAB 3
+                        </p>
                     </div>
                 </div>
             </div>
@@ -191,7 +199,7 @@
                     <h2 class="pricing__title">
                         pricing options
                     </h2>
-                    <h4 class="header__subtitle">
+                    <h4 class="pricing__subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h4>
                 </div>
@@ -253,6 +261,17 @@
                     <p class="customers__subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
+                </div>
+                <div class="customers-radio">
+                    <div class="radio-comment">
+                        <input type="radio" name="" id="radio-1">
+                    </div>
+                    <div class="radio-comment">
+                        <input type="radio" name="" id="radio-1">
+                    </div>
+                    <div class="radio-comment">
+                        <input type="radio" name="" id="radio-1">
+                    </div>
                 </div>
                 <div class="comments">
                     <div class="comment-card">
@@ -321,14 +340,18 @@
         <section class="stylish">
             <div class="stylish-img">
                 <div class="stylish-wrap">
-                    <h2 class="stylish__title">
+                    <div class="stylish__title">
                         STYLISH AXURE DESIGN
-                    </h2>
-                    <p class="stylish__subtitle">
-                        Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
-                        ever!
-                    </p>
-                    <button type="button" class="stylish__button">Download</button>
+                    </div>
+                    <div class="stylish__subtitle">
+                        <p>
+                            Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+                            ever!
+                        </p>
+                    </div>
+                    <div class="stylish-btn">
+                        <button type="button" class="stylish__button">Download</button>
+                    </div>
                 </div>
             </div>
         </section>

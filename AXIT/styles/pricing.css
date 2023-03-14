@@ -1,35 +1,35 @@
 @import url(/styles/fonts.css);
 
-*{
+* {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
 }
 
-.pricing{
+.pricing {
     background-color: #F5F5F5;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.pricing-wrap{
+.pricing-wrap {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.pricing-header{
+.pricing-header {
     text-align: center;
 }
 
-.pricing__title{
+.pricing__title {
     font-family: 'Raleway-Regular';
     font-size: 36px;
     text-transform: uppercase;
     padding-top: 54px;
 }
 
-.pricing__title::after{
+.pricing__title::after {
     content: '';
     display: block;
     width: 170px;
@@ -40,47 +40,46 @@
     margin-bottom: 40px;
 }
 
-.header__subtitle{
+.pricing__subtitle {
     font-family: 'Raleway-Regular';
     font-size: 18px;
     color: #86878B;
     margin-bottom: 59px;
 }
 
-.cards{
+.cards {
     display: flex;
     margin: 0px -15px;
-    height: 530px;
+    justify-content: space-between;
 }
 
-.card-price{
+.card-price {
     padding: 0 15px;
-    flex: 0 0 33.333%;
+    width: 370px;
 }
 
-.card-price__title{
+.card-price__title {
     text-align: center;
 }
 
-.card-price__text{
+.card-price__text {
     text-align: center;
     list-style-type: none;
 }
 
-.card-price__1{
-    align-self: center;
+.card-price__1 {
+    margin-top: 20px;
 }
 
-.card-price__2{
-    align-self: flex-start;
+.card-price__2 {
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 
-.card-price__3{
-    align-self: center;
+.card-price__3 {
+    margin-top: 20px;
 }
 
-.item{
+.item {
     font-family: 'Raleway-Regular';
     font-size: 18px;
     color: #86878B;
@@ -89,7 +88,7 @@
     padding: 12.5px 0;
 }
 
-#title{
+#title {
     font-family: 'OpenSans-Bold';
     font-size: 24px;
     color: #FFFFFF;
@@ -98,7 +97,7 @@
     padding: 11.5px 0;
 }
 
-#price{
+#price {
     font-family: 'Raleway-Bold';
     font-size: 36px;
     color: #FFFFFF;
@@ -107,11 +106,60 @@
     padding: 27px 0;
 }
 
-#text{
+#text {
     font-family: 'Raleway-Regular';
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
     background: #333333;
     border: 2px solid #F5F5F5;
     padding: 12.5px 0;
+}
+
+@media(max-width: 320px) {
+    .pricing{
+        padding: 0;
+    }
+    .pricing__title {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 45px;
+    }
+
+    .pricing__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-price {
+        text-align: center;
+        width: 288px;
+    }
+
+    #title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #price {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    #text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .card-price__text{
+        margin-bottom: 27px;
+    }
+
+    .item {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

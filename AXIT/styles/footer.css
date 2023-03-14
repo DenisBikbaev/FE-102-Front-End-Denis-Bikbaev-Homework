@@ -44,22 +44,6 @@
     transition: .2;
 }
 
-.fa-facebook-f {}
-
-.fa-twitter {}
-
-.fa-linkedin {}
-
-.fa-pinterest {}
-
-.fa-instagram {}
-
-.fa-github {}
-
-.fa-solid {}
-
-.fa-rss {}
-
 .copy {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -67,4 +51,19 @@
     font-size: 18px;
     line-height: 21px;
     padding-bottom: 27px;
+}
+
+@media(max-width: 320px){
+    .footer-icons{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 38px;
+    }
+    .fa-brands{
+        margin-right: 20px;
+        margin-bottom: 45px;
+    }
+    .copy{
+        padding-bottom: 45px;
+    }
 }

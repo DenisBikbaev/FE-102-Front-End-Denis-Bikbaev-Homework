@@ -1,16 +1,16 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.social{
+.social {
     background: #F8EFEF;
     margin: 0 auto;
     margin-bottom: 99px;
 }
 
-.social-wrap{
+.social-wrap {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
@@ -42,4 +42,32 @@
     align-self: center;
     font-size: 48px;
     color: #CCCCCC;
+}
+
+@media (max-width: 320px) {
+    .social-wrap {
+        flex-direction: column;
+        align-content: center;
+        align-content: center;
+    }
+
+    .social-aside__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .social-aside__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .social-aside {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .social-icon {
+        font-size: 20px;
+    }
 }
